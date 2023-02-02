@@ -1,0 +1,1761 @@
+//// first html
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>405 MedX</title>
+<meta charset="utf-8" />
+<meta name="viewpoint" content="width=device-width,initial-scal=1.0">
+<meta http-equip="X-UA-compatible" content="ie=edge">
+<link rel="stylesheet" href="style.css" media="screen" type="text/css" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.store.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+<section id="nav-bar">
+		<nav class="navbar navbar-expand-lg navbar-light">
+  		
+  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    			<span class="navbar-toggler-icon"></span>
+  		</button>
+  		<div class="topnav">
+  		<a style="color:black;" class="active" href="#home">Home</a>
+		</div> 
+  		<div class="collapse navbar-collapse" id="navbarNav">
+  		
+    		<ul class="navbar-nav ml-auto">
+    		 
+    		<li class="nav-item">
+        
+      		<li class="nav-item">
+        		<a style="color:black;" class="nav-link" href="#Symptoms">Symptoms<a href="index2.html" class="button"></a>
+
+        		
+      		</li>
+      		
+      		
+      		<li class="nav-item">
+        		<a style="color:black;" class="nav-link" href="#about">About Us</a>
+      		</li>
+      		
+      		<li class="nav-item">
+        		<a style="color:black;" class="nav-link" href="#services">Our Services</a>
+      		</li>
+      		
+      		<li class="nav-item">
+        		<a style="color:black;" class="nav-link" href="#team" tabindex="-1" aria-disabled="true">Our Team</a>
+      		</li>
+      		<li class="nav-item">
+        		<a style="color:black;" class="nav-link" href="#contact">Contact</a>
+      		</li>
+      		
+      		
+      		
+    		</ul>
+  		</div>
+		</nav>
+
+
+	<div class="slider">
+		<div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-interval="10000">
+      <img src="https://medlineplus.gov/images/CervicalCancerScreening2_share.jpg" class="d-block w-100" alt="..." style="width:auto;height:800px;">
+    </div>
+    <div class="carousel-item" data-interval="2000">
+      <img src="https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/blog_posts/cholesterol-management/1800x1200_doctor_writing_notes_with_patient.jpg?resize=550px:*" class="d-block w-100" alt="..." style="width:auto;height:800px;">
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.pexels.com/photos/139398/thermometer-headache-pain-pills-139398.jpeg?auto=compress&cs=tinysrgb&w=400" class="d-block w-100" alt="..." style="width:auto;height:800px;">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+	</div>
+		
+
+
+	<!------Featured Categories----->
+	<section class="featured-categories">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+				<img src="https://cdn.pixabay.com/photo/2017/10/04/09/56/laboratory-2815641_1280.jpg">
+				</div>
+				<div class="col-md-3">
+				<img src="https://cdn.pixabay.com/photo/2014/07/05/15/16/pills-384846__480.jpg">
+				</div>
+				<div class="col-md-3">
+				<img src="https://plus.unsplash.com/premium_photo-1668605108427-695ef1c16256?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80">
+				</div>
+				<div class="col-md-3">
+				<img src="https://media.istockphoto.com/id/1393602454/photo/red-heart-and-heartbeat-wave-icon-sign-or-symbol-on-pink-background-3d-illustration.jpg?b=1&s=170667a&w=0&k=20&c=C27rDca2KOehFEUPS3BRvt32Wh5Oqh7APWdA6PUj8Jc=">
+				</div>
+				
+			
+			</div>
+		
+		</div>
+	</section>
+	
+	
+<section class="new-arrivals">
+<div id="site">
+	<div class="container">
+		<div class="title-box">
+		<h2>New Arrivals</h2>
+		</div>
+		<div class="row">
+			<div class="col-md-3">
+			<div class="product-top">
+				<img src="images/neb.jpg">
+				<div class="overlay-right">
+					<button type="button" class="btn btn-secondary" title="Quick Shop">
+					<i class="fa fa-eye"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+					<i class="fa fa-heart-o"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Cart">
+					<i class="fa fa-shopping-cart"></i>
+					</button>
+				</div>
+			</div>
+			
+			
+			<div class="product-bottom text-center">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half-o"></i>
+			<h3>Nebulizer</h3>
+			<div class="product-description" data-name="Nebulizer" data-price="220">
+				
+				<p class="product-price">&#8377;220</p>
+				<form class="add-to-cart" action="cart.html" method="post">
+							<div>
+								<label for="qty-2">Quantity</label>
+								<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+							</div>
+							<p><input type="submit" value="Add to cart" class="btn" /></p>
+						</form>
+						
+			</div>
+			</div>
+			</div>
+
+			
+			<div class="col-md-3">
+			<div class="product-top">
+				<img src="https://cdn.pixabay.com/photo/2020/08/20/12/34/mask-5503418__480.jpg">
+				<div class="overlay-right">
+					<button type="button" class="btn btn-secondary" title="Quick Shop">
+					<i class="fa fa-eye"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+					<i class="fa fa-heart-o"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Cart">
+					<i class="fa fa-shopping-cart"></i>
+					</button>
+				</div>
+			</div>
+			
+			
+			<div class="product-bottom text-center">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half-o"></i>
+			<h3>Surgical Mask</h3>
+			<div class="product-description" data-name="Surgical Mask" data-price="10">
+				
+				<p class="product-price">&#8377;10</p>
+				<form class="add-to-cart" action="cart.html" method="post">
+							<div>
+								<label for="qty-2">Quantity</label>
+								<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+							</div>
+							<p><input type="submit" value="Add to cart" class="btn" /></p>
+						</form>
+						
+			</div>
+			</div>
+			</div>
+
+
+
+			<div class="col-md-3">
+			<div class="product-top">
+				<img src="images/table1.jpg">
+				<div class="overlay-right">
+					<button type="button" class="btn btn-secondary" title="Quick Shop">
+					<i class="fa fa-eye"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+					<i class="fa fa-heart-o"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Cart">
+					<i class="fa fa-shopping-cart"></i>
+					</button>
+				</div>
+			</div>
+			
+			
+			<div class="product-bottom text-center">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half-o"></i>
+			<h3>Surgical Gloves</h3>
+			<div class="product-description" data-name="Surgical Gloves" data-price="15">
+				
+				<p class="product-price">&#8377;15</p>
+				<form class="add-to-cart" action="cart.html" method="post">
+							<div>
+								<label for="qty-2">Quantity</label>
+								<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+							</div>
+							<p><input type="submit" value="Add to cart" class="btn" /></p>
+						</form>
+						
+			</div>
+			</div>
+			</div>
+
+
+
+			<div class="col-md-3">
+			<div class="product-top">
+				<img src="images/syr.jpg">
+				<div class="overlay-right">
+					<button type="button" class="btn btn-secondary" title="Quick Shop">
+					<i class="fa fa-eye"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+					<i class="fa fa-heart-o"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Cart">
+					<i class="fa fa-shopping-cart"></i>
+					</button>
+				</div>
+			</div>
+			
+			
+			<div class="product-bottom text-center">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half-o"></i>
+			<h3>Syringe</h3>
+			<div class="product-description" data-name="Syringe" data-price="20">
+				
+				<p class="product-price">&#8377;20</p>
+				<form class="add-to-cart" action="cart.html" method="post">
+							<div>
+								<label for="qty-2">Quantity</label>
+								<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+							</div>
+							<p><input type="submit" value="Add to cart" class="btn" /></p>
+						</form>
+						
+			</div>
+			</div>
+			</div>			
+
+		</div>
+
+
+
+	<div class="row">
+			<div class="col-md-3">
+			<div class="product-top">
+				<img src="images/spir.jpg">
+				<div class="overlay-right">
+					<button type="button" class="btn btn-secondary" title="Quick Shop">
+					<i class="fa fa-eye"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+					<i class="fa fa-heart-o"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Cart">
+					<i class="fa fa-shopping-cart"></i>
+					</button>
+				</div>
+			</div>
+			
+			
+			<div class="product-bottom text-center">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half-o"></i>
+			<h3>Spirometer</h3>
+			<div class="product-description" data-name="Spirometer" data-price="310">
+				
+				<p class="product-price">&#8377;310</p>
+				<form class="add-to-cart" action="cart.html" method="post">
+							<div>
+								<label for="qty-2">Quantity</label>
+								<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+							</div>
+							<p><input type="submit" value="Add to cart" class="btn" /></p>
+						</form>
+						
+			</div>
+			</div>
+			</div>
+
+			
+			<div class="col-md-3">
+			<div class="product-top">
+				<img src="https://cdn.pixabay.com/photo/2020/03/21/16/16/hand-sanitizer-4954459__480.jpg">
+				<div class="overlay-right">
+					<button type="button" class="btn btn-secondary" title="Quick Shop">
+					<i class="fa fa-eye"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+					<i class="fa fa-heart-o"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Cart">
+					<i class="fa fa-shopping-cart"></i>
+					</button>
+				</div>
+			</div>
+			
+			
+			<div class="product-bottom text-center">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half-o"></i>
+			<h3>Sanitizer</h3>
+			<div class="product-description" data-name="Sanitizer" data-price="50">
+				
+				<p class="product-price">&#8377;50</p>
+				<form class="add-to-cart" action="cart.html" method="post">
+							<div>
+								<label for="qty-2">Quantity</label>
+								<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+							</div>
+							<p><input type="submit" value="Add to cart" class="btn" /></p>
+						</form>
+						
+			</div>
+			</div>
+			</div>
+
+
+
+			<div class="col-md-3">
+			<div class="product-top">
+				<img src="images/band.jpg">
+				<div class="overlay-right">
+					<button type="button" class="btn btn-secondary" title="Quick Shop">
+					<i class="fa fa-eye"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+					<i class="fa fa-heart-o"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Cart">
+					<i class="fa fa-shopping-cart"></i>
+					</button>
+				</div>
+			</div>
+			
+			
+			<div class="product-bottom text-center">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half-o"></i>
+			<h3>Bandages</h3>
+			<div class="product-description" data-name="Bandages" data-price="10">
+				
+				<p class="product-price">&#8377;10</p>
+				<form class="add-to-cart" action="cart.html" method="post">
+							<div>
+								<label for="qty-2">Quantity</label>
+								<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+							</div>
+							<p><input type="submit" value="Add to cart" class="btn" /></p>
+						</form>
+						
+			</div>
+			</div>
+			</div>
+
+
+
+			<div class="col-md-3">
+			<div class="product-top">
+				<img src="images/sphy.jpg">
+				<div class="overlay-right">
+					<button type="button" class="btn btn-secondary" title="Quick Shop">
+					<i class="fa fa-eye"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+					<i class="fa fa-heart-o"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Cart">
+					<i class="fa fa-shopping-cart"></i>
+					</button>
+				</div>
+			</div>
+			
+			
+			<div class="product-bottom text-center">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half-o"></i>
+			<h3>Sphygmomanometer</h3>
+			<div class="product-description" data-name="Sphygmomanometer" data-price="300">
+				
+				<p class="product-price">&#8377;300</p>
+				<form class="add-to-cart" action="cart.html" method="post">
+							<div>
+								<label for="qty-2">Quantity</label>
+								<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+							</div>
+							<p><input type="submit" value="Add to cart" class="btn" /></p>
+						</form>
+						
+			</div>
+			</div>
+			</div>	
+		</div>
+
+
+
+
+
+
+	</div>
+</div>
+</section>
+	
+	
+<section class="on-sale">
+<div id="site">
+	<div class="container">
+		<div class="title-box">
+		<h2>Out Of Stock</h2>
+		</div>
+		<div class="row">
+			<div class="col-md-3">
+			<div class="product-top">
+				<img src="images/steth.jpg">
+				<div class="overlay-right">
+					<button type="button" class="btn btn-secondary" title="Quick Shop">
+					<i class="fa fa-eye"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+					<i class="fa fa-heart-o"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Cart">
+					<i class="fa fa-shopping-cart"></i>
+					</button>
+				</div>
+			</div>
+			
+			
+			<div class="product-bottom text-center">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half-o"></i>
+			<h3>Stethoscope</h3>
+			<div class="product-description" data-name="Stethoscope" data-price="200">
+				
+				<p class="product-price">&#8377;200</p>
+				<form class="add-to-cart" action="cart.html" method="post">
+							<div>
+								<label for="qty-2">Quantity</label>
+								<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+							</div>
+							<p><input type="submit" value="Add to cart" class="btn" /></p>
+						</form>
+						
+			</div>
+			</div>
+			</div>
+
+			
+			<div class="col-md-3">
+			<div class="product-top">
+				<img src="images/x.jpg">
+				<div class="overlay-right">
+					<button type="button" class="btn btn-secondary" title="Quick Shop">
+					<i class="fa fa-eye"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+					<i class="fa fa-heart-o"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Cart">
+					<i class="fa fa-shopping-cart"></i>
+					</button>
+				</div>
+			</div>
+			
+			
+			<div class="product-bottom text-center">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half-o"></i>
+			<h3>X-Ray Machine</h3>
+			
+			<div class="product-description" data-name="X-Ray Machine" data-price="55000">
+				
+				<p class="product-price">&#8377;55000</p>
+				<form class="add-to-cart" action="cart.html" method="post">
+							<div>
+								<label for="qty-2">Quantity</label>
+								<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+							</div>
+							<p><input type="submit" value="Add to cart" class="btn" /></p>
+						</form>
+						
+			</div>
+			</div>
+			</div>
+
+
+
+			<div class="col-md-3">
+			<div class="product-top">
+				<img src="images/oxi.jpg">
+				<div class="overlay-right">
+					<button type="button" class="btn btn-secondary" title="Quick Shop">
+					<i class="fa fa-eye"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+					<i class="fa fa-heart-o"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Cart">
+					<i class="fa fa-shopping-cart"></i>
+					</button>
+				</div>
+			</div>
+			
+			
+			<div class="product-bottom text-center">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half-o"></i>
+			<h3>Pulse Oximeter</h3>
+			<div class="product-description" data-name="Pulse Oximeter" data-price="600">
+				
+				<p class="product-price">&#8377;600</p>
+				<form class="add-to-cart" action="cart.html" method="post">
+							<div>
+								<label for="qty-2">Quantity</label>
+								<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+							</div>
+							<p><input type="submit" value="Add to cart" class="btn" /></p>
+						</form>
+						
+			</div>
+			</div>
+			</div>
+
+
+
+			<div class="col-md-3">
+			<div class="product-top">
+				<img src="images/ecg.jpg">
+				<div class="overlay-right">
+					<button type="button" class="btn btn-secondary" title="Quick Shop">
+					<i class="fa fa-eye"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+					<i class="fa fa-heart-o"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Cart">
+					<i class="fa fa-shopping-cart"></i>
+					</button>
+				</div>
+			</div>
+			
+			
+			<div class="product-bottom text-center">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half-o"></i>
+			<h3>Electrosurgical Unit</h3>
+			<div class="product-description" data-name="Electrosurgical Unit" data-price="2600">
+				
+				<p class="product-price">&#8377;2600</p>
+				<form class="add-to-cart" action="cart.html" method="post">
+							<div>
+								<label for="qty-2">Quantity</label>
+								<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+							</div>
+							<p><input type="submit" value="Add to cart" class="btn" /></p>
+						</form>
+						
+			</div>
+			</div>
+			</div>			
+
+		</div>
+
+
+
+	<div class="row">
+			<div class="col-md-3">
+			<div class="product-top">
+				<img src="images/stret.jpg">
+				<div class="overlay-right">
+					<button type="button" class="btn btn-secondary" title="Quick Shop">
+					<i class="fa fa-eye"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+					<i class="fa fa-heart-o"></i>
+					</button>
+					
+					
+				</div>
+			</div>
+			
+			
+			<div class="product-bottom text-center">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half-o"></i>
+			<h3>Stretcher</h3>
+			<div class="product-description" data-name="Stretcher" data-price="5000">
+				
+				<p class="product-price">&#8377;5000</p>
+				<form class="add-to-cart" action="cart.html" method="post">
+							<div>
+								<label for="qty-2">Quantity</label>
+								<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+							</div>
+							<p><input type="submit" value="Add to cart" class="btn" /></p>
+						</form>
+						
+			</div>
+			</div>
+			</div>
+
+			
+			<div class="col-md-3">
+			<div class="product-top">
+				<img src="images/gluc.jpg">
+				<div class="overlay-right">
+					<button type="button" class="btn btn-secondary" title="Quick Shop">
+					<i class="fa fa-eye"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+					<i class="fa fa-heart-o"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Cart">
+					<i class="fa fa-shopping-cart"></i>
+					</button>
+				</div>
+			</div>
+			
+			
+			<div class="product-bottom text-center">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half-o"></i>
+			<h3>Glucose Meter</h3>
+			<div class="product-description" data-name="Glucose Meter" data-price="2000">
+				
+				<p class="product-price">&#8377;2000</p>
+				<form class="add-to-cart" action="cart.html" method="post">
+							<div>
+								<label for="qty-2">Quantity</label>
+								<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+							</div>
+							<p><input type="submit" value="Add to cart" class="btn" /></p>
+						</form>
+						
+			</div>
+			</div>
+			</div>
+
+
+
+			<div class="col-md-3">
+			<div class="product-top">
+				<img src="images/ult.jpg">
+				<div class="overlay-right">
+					<button type="button" class="btn btn-secondary" title="Quick Shop">
+					<i class="fa fa-eye"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+					<i class="fa fa-heart-o"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Cart">
+					<i class="fa fa-shopping-cart"></i>
+					</button>
+				</div>
+			</div>
+			
+			
+			<div class="product-bottom text-center">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half-o"></i>
+			<h3>Ultrasound Machine</h3>
+			<div class="product-description" data-name="Ultrasound Machine" data-price="90000">
+				
+				<p class="product-price">&#8377;90000</p>
+				<form class="add-to-cart" action="cart.html" method="post">
+							<div>
+								<label for="qty-2">Quantity</label>
+								<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+							</div>
+							<p><input type="submit" value="Add to cart" class="btn" /></p>
+						</form>
+						
+			</div>
+			</div>
+			</div>
+
+
+
+			<div class="col-md-3">
+			<div class="product-top">
+				<img src="images/cat.jpg">
+				<div class="overlay-right">
+					<button type="button" class="btn btn-secondary" title="Quick Shop">
+					<i class="fa fa-eye"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+					<i class="fa fa-heart-o"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Cart">
+					<i class="fa fa-shopping-cart"></i>
+					</button>
+				</div>
+			</div>
+			
+			
+			<div class="product-bottom text-center">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half-o"></i>
+			<h3>Catheter</h3>
+			
+			<div class="product-description" data-name="Catheter" data-price="150">
+				
+				<p class="product-price">&#8377;150</p>
+				<form class="add-to-cart" action="cart.html" method="post">
+							<div>
+								<label for="qty-2">Quantity</label>
+								<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+							</div>
+							<p><input type="submit" value="Add to cart" class="btn" /></p>
+						</form>
+						
+			</div>
+			</div>
+			</div>	
+		</div>
+
+
+
+
+
+
+	</div>
+</div>
+</section>
+	
+	
+
+	<section id=Symptoms>
+		<div class="container">
+		<div class="row">
+			<div class="col-md-7">
+				<h2>Symptoms</h2>
+				<div class="about-content">
+			Finding medicine for a disease based on symptoms at the proper time is crucial for the health and well-being of the patient. Early diagnosis and treatment can prevent the disease from progressing and causing more severe or irreversible damage to the body. It can also reduce the risk of complications and improve the chances of recovery. Furthermore, it can lead to more effective and efficient use of healthcare resources. By identifying and treating the disease in its early stages, it can also potentially save lives. 
+			  Early detection can also help in reducing the burden of chronic diseases and lower the cost of healthcare. In short, it is vital that we find medicine for any disease based on the symptoms at a proper time to ensure the best possible outcome for the patient.
+
+			  
+			</div>
+
+		 <a href="index2.html" class="button"><button type="button" class="btn btn-primary">Check For Symptoms >></button></a>
+		
+		
+	</section>
+	
+
+
+
+
+
+
+
+
+
+
+<!------About Section------->	
+	<section id="about">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-7">
+			<h2>About Us</h2>
+				<div class="about-content">
+				We are 405 hacktivists. Our unit has focused on creating easy way to connect consumers and patients to accesss medical facilities in a more productive way.
+
+
+			</div>
+			<button type="button" class="btn btn-primary">Read More>>
+			
+			</button>
+			
+			
+		
+	</div>	
+		
+<!------Services Section------->		
+	<section id="services">
+	
+		<div class="container">
+			<h1>Our Services</h1>
+			<div class="row services" >
+				<div class= "col-md-4 text-center">
+					<div class="icon">
+					<i class="fa fa-phone"></i>
+					</div>
+					<h3> 24/7 Support</h3>
+					<p>on order related queries</p>
+				</div>
+			
+				<div class="col-md-4 text-center">
+					<div class="icon">
+					<i class="fa fa-shopping-cart"></i>
+					</div>
+					<h3> Return within 30 days</h3>
+					<p>of receiving your order</p>
+				</div>
+			
+				<div class="col-md-4 text-center">
+					<div class="icon">
+					<i class="fa fa-truck"></i>
+					</div>
+					<h3>Get free delivery</h3>
+					
+				</div>
+			</div>
+		</div>
+	
+	</section>
+	
+
+
+<!-----Team------->
+<section id="team">
+	
+	<div class="container">
+		<h1>Our Team</h1>
+		<div class="row">
+			<div class="col-md-3 profile-pic text-center">
+				<div class="img-box">
+				<img src="https://cdn.pixabay.com/photo/2016/08/20/05/38/avatar-1606916_1280.png" class="img-responsive">
+
+				<ul>
+					<a href="https://www.facebook.com/"><li><i class="fa fa-facebook"></i></li></a>
+					<a href="https://www.linkedin.com/in/shawn-monteiro-881943244"><li><i class="fa fa-linkedin"></i></li></a>
+				</ul>
+				</div>
+				<h2>Shawn Monteiro</h2>
+				
+				
+			</div>
+			
+			<div class="col-md-3 profile-pic text-center">
+				<div class="img-box">
+				<img src="https://cdn.pixabay.com/photo/2016/08/20/05/38/avatar-1606916_1280.png" class="img-responsive">
+				<ul>
+					<a href="https://www.facebook.com/"><li><i class="fa fa-facebook"></i></li></a>
+					<a href="https://www.linkedin.com/in/shaun-furtado-16579722b/"><li><i class="fa fa-linkedin"></i></li></a>
+				</ul>
+				</div>
+				<h2>Shaun Furtado</h2>
+				
+				
+			</div>
+			
+			<div class="col-md-3 profile-pic text-center">
+				<div class="img-box">
+				<img src="https://cdn.pixabay.com/photo/2016/08/20/05/38/avatar-1606916_1280.png" class="img-responsive">
+				<ul>
+					<a href="https://www.facebook.com/"><li><i class="fa fa-facebook"></i></li></a>
+					<a href="https://www.linkedin.com/in/shashank-ram-k-722101227"><li><i class="fa fa-linkedin"></i></li></a>
+				</ul>
+				</div>
+				<h2>Shashank</h2>
+				
+				
+			</div>
+			
+			
+				
+				
+			</div>
+		</div>	
+	</div>
+	
+</section>
+
+<!------COntact------------>	
+<section id="contact">	
+	
+	<div class="container">
+		<h1>Get In Touch</h1>
+		<div class="row">
+			<div class="col-md-6">
+				<form class="contact-form">
+				<div class="form-group">
+				<input type="text" class="form-control" placeholder="Your Name..">
+				</div>
+				<div class="form-group">
+				<input type="number" class="form-control" placeholder="Phone no.">
+				</div>
+				<div class="form-group">
+				<input type="email" class="form-control" placeholder="Email..">
+				</div>
+				<div class="form-group">
+				<textarea class="form-control" rows="4" placeholder="Message.."></textarea>
+				</div>
+			
+				<button type="submit" class="btn btn-primary">Submit</button>
+				</form>
+			</div>
+			<div class="col-md-6 contact-info">
+				<div class="follow"><b><i class="fa fa-map-marker"></i>  </b>St. Joseph Engineering College,Vamanjoor</div>
+				<div class="follow"><b><i class="fa fa-mobile"></i>  </b>(+91)7862097585</div>
+				<div class="follow"><b><i class="fa fa-envelope"></i>  </b>405hacktivists@gmail.com</div>
+				
+				
+				<div class="follow"><label><b>Get Social </b></label>
+				<a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+				<a href="https://www.youtube.com/"><i class="fa fa-youtube-play"></i></a>
+				<a href="https://twitter.com/login"><i class="fa fa-twitter"></i></a>
+			
+				
+				</div>
+			</div>
+			
+		</div>
+
+	</div>
+
+</section>
+
+</body>
+</html>	
+
+
+
+//////SECOND HTML
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Medical Information</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>  
+<body>
+	<header>
+		<div class="wrapper">
+				<img src="universal-health-care-1095124_960_720.png" class="logo">
+			<ul class="menu">
+				<li><a href="https://www.healthdirect.gov.au/symptom-checker/tool">Symptom Checker</a></li>
+				<li><a href="#">Consult</a>
+					<div class="sub-menu">
+						<ul>
+							<li><a href="https://www.practo.com/mangalore/cardiologist">Cardiologist</a></li>
+							<li><a href="https://www.practo.com/search/doctors?results_type=doctor&q=%5B%7B%22word%22%3A%22general%20physician%22%2C%22autocompleted%22%3Atrue%2C%22category%22%3A%22subspeciality%22%7D%5D&city=mangalore">Physician</a></li>
+							<li><a href="https://www.practo.com/search/doctors?results_type=doctor&q=%5B%7B%22word%22%3A%22ear-nose-throat%20(ent)%20specialist%22%2C%22autocompleted%22%3Atrue%2C%22category%22%3A%22subspeciality%22%7D%5D&city=mangalore">ENT</a></li>
+							<li><a href="https://www.practo.com/search/doctors?results_type=doctor&q=%5B%7B%22word%22%3A%22psychiatrist%22%2C%22autocompleted%22%3Atrue%2C%22category%22%3A%22subspeciality%22%7D%5D&city=mangalore">Psychiatrists</a></li>
+							<li><a href="https://www.practo.com/search/doctors?results_type=doctor&q=%5B%7B%22word%22%3A%22dentist%22%2C%22autocompleted%22%3Atrue%2C%22category%22%3A%22subspeciality%22%7D%5D&city=mangalore">Dentist</a></li>
+							<li><a href="https://www.practo.com/search/doctors?results_type=doctor&q=%5B%7B%22word%22%3A%22neurologist%22%2C%22autocompleted%22%3Atrue%2C%22category%22%3A%22subspeciality%22%7D%5D&city=mangalore">Neurologists</a></li>
+							<li><a href="https://www.practo.com/search/doctors?results_type=doctor&q=%5B%7B%22word%22%3A%22endocrinologist%22%2C%22autocompleted%22%3Atrue%2C%22category%22%3A%22subspeciality%22%7D%5D&city=mangalore">Endocrinologists</a></li>
+							<li><a href="https://www.practo.com/search/doctors?results_type=doctor&q=%5B%7B%22word%22%3A%22ophthalmologist%22%2C%22autocompleted%22%3Atrue%2C%22category%22%3A%22subspeciality%22%7D%5D&city=mangalore">Ophthalmology</a></li>
+						</ul>
+					</div>
+				</li>
+				<!-- <li><a href="https://in.linkedin.com/in/amber-kakkar-242138193">About Me</a></li>
+				<li><a href="https://www.sehat.com/">Know Your Doctor</a></li> -->
+				<li><a href="faq.html">FAQ</a></li>
+			</ul>
+		</div>
+		
+		<div class="middle">
+		 <div class="row">
+				<div class="column side">
+				    <br /><br /><br />
+					<h3>Amazing Disease Fighting Foods</h3><br /><br />
+					<p>Do your body a healthy world of good with these powerhouse disease fighting foods.
+					   these nutritious nibbles should replace other, less healthful, foods, helping you to cut calories while boosting the nutrition in your diet.</p><br />
+					<ol class="describe">
+						<li><strong>Berries</strong>
+							<p>Reach for berries for a powerful dose of disease fighting antioxidants. 
+							   According to a U.S. Department of Agriculture study, blueberries top the list of antioxidant-rich fruits,
+							   followed by cranberries, blackberries, raspberries, and strawberries. The color of berries comes from the pigment anthocyanin, an antioxidant that helps neutralize "free radicals" 
+							   (cell-damaging molecules) that can help lead to chronic diseases, including cancer and heart disease.
+							   Berries, particularly cranberries, may also help ward off urinary tract infections.</p><br />
+						</li>
+						<li><strong>Dark, Leafy Greens</strong>
+							<p>One of the best disease fighting foods is dark, leafy greens, which include everything from spinach, kale, and bok 
+							   choy to dark lettuces. They are loaded with vitamins, minerals, beta-carotene, vitamin C, folate, iron, magnesium, carotenoids, phytochemicals, and antioxidants. A Harvard study found that eating 
+							   magnesium-rich foods such as spinach can reduce the risk of developing type 2 diabetes.</p><br />
+					    </li>
+						<li><strong>Tomatoes</strong>
+							<p>These red-hot fruits of summer are bursting with flavor and lycopene -- an antioxidant that may help protect against some cancers. 
+							   They also deliver an abundance of vitamins A and C, potassium, and phytochemicals.</p><br />
+					    </li>
+						<li><strong>Nuts</strong>
+							<p>Nuts are full of fats. But they're the healthy, mono- and polyunsaturated kind, which can help lower cholesterol levels and help prevent heart disease.
+							   In addition, nuts are a good source of protein, fiber, selenium, vitamin E, and vitamin A.</p><br />
+						</li>
+						<li><strong>Beans and Legumes</strong>
+							<p>These nutritious nuggets are packed with phytochemicals; fat-free, high-quality protein; folic acid; fiber; iron; magnesium; and small amounts of calcium.
+							   Beans are an excellent and inexpensive protein source and a great alternative for low-calorie vegetarian meals.
+                               Eating beans and legumes regularly as part of a healthy eating plan can help reduce the risk of certain cancers; lower blood cholesterol and triglyceride levels;
+							   and stabilize blood sugar. Beans also play an important role in weight management by filling you up with lots of bulk and few calories.</p><br />
+						</li>
+						<li><strong>Eggs</strong>
+							<p>Their cholesterol content once led to bad press for the mighty egg, but research has redeemed it. It turns out that saturated fat (eggs have little) 
+							   plays a bigger role than the cholesterol in food in elevating our blood cholesterol.
+                               Eggs are packed with economical, high-quality protein, and are an excellent source of the carotenoids 
+							   lutein, choline, and xeanthin. In fact, eggs are one of the best sources of dietary choline, an essential
+							   nutrient -- especially for pregnant women. Eggs have been shown to supply nutrients that promote eye health 
+							   and help prevent age-related macular degeneration, the leading cause of blindness in older people.</p><br />
+						</li>
+						<li><strong>Carrots</strong>
+							<p>Carrots contain lots of carotenoids, an antioxidant that may protect against cancer, cataracts, and/or heart disease.
+							   Other fruits and vegetables that are packed with carotenoids include sweet potato, kale, pumpkin, spinach, and cantaloupe.
+							   Carotenoids help give these guys their bright, vibrant orange and green colors. These antioxidant ninjas fight off the bad guys –
+							   free radicals – and ensure they don’t hurt any cell membranes or DNA</p><br />
+						</li>
+						<li><strong>Apples</strong>
+							<p>The saying “an apple a day keeps the doctor away” is definitely true. 
+							   This antioxidant fruit also contains quercetin, a photochemical 
+							   that can help prevent lung, prostate, and heart disease, among others.
+                               This miracle fruit is a great raw snack, make a mouth-watering Maple Drunk Vegan Apple Pie,
+							   and cook deliciously in Apple-Almond Butter Pancakes. Yum! For more apple-inspired recipes, check out these 20 Warm and Fuzzy Apple Recipes.</p><br />
+					    </li>
+					</ol>
+					
+				</div>
+  
+			<div class="column middle">
+		 	    <br /><br /><br />
+				<h2><strong>Doctors For Your Symptoms:</strong></h2><br />
+				<ul>
+					<li><strong>Anaesthesiologist</strong>
+						<p> Anaesthetists, the largest group of hospital-based specialists, 
+							give anaesthetics for surgical, medical and psychiatric procedures. 
+							They facilitate pain free child-birth, resuscitate acutely unwell patients, 
+							run chronic pain and lead intensive care units.The majority of their time is spent in the operating theatre 
+							but they also work in areas such as:</p><br />
+						<ul>
+							<li>obstetric units</li>
+							<li>critical care services for intensive care and high dependency patients</li>
+							<li>resuscitation services</li>
+							<li>emergency departments</li>
+							<li>chronic pain management</li>
+							<li>acute pain teams</li>
+							<li>dentistry</li>
+							<li>perioperative clinics</li>
+							<li>radiology</li>
+							<li>psychiatry–for patients receiving electro-convulsive therapy(ECT)</li>
+						</ul><br />
+					</li>
+					<li><strong>Psychiatry</strong>	
+						<p>Mental illness is extremely common and far more prevalent than most people realise. 
+						   This kind of illness therefore ranks alongside cardiovascular disorders and cancer as 
+						   one of the nation's biggest health problems.Specialties are: </p><br />
+						<ul>
+							<li>child and adolescent psychiatry</li>
+							<li>forensic psychiatry</li>
+							<li>general psychiatry</li>
+							<li>old age psychiatry</li>	
+							<li>psychiatry of intellectual disability (PID)</li>
+						</ul><br />
+					</li>
+					<li><strong>Surgery</strong>	
+						<p>In modern medicine, a surgeon is a physician who performs surgical operations. 
+						   There are also surgeons in podiatry, dentistry, orthodontics and the veterinary fields.
+						</p><br />
+					</li>	
+					<li><strong>Pathology</strong>
+						<p>Pathology provides an understanding of the process of disease and is multidisciplinary. 
+						   It has five main specialties which have further sub-specialties.A pathology career offers
+						   a great range of variety and combines clinical and laboratory work and offers scope for excellent 
+						   opportunities within research. Whichever branch of pathology that you are interested in,
+						   all jobs within pathology will require a very broad and detailed knowledge of medicine </p><br />
+				    </li>
+					<li><strong>Obstetrics and gynaecology</strong>
+						<p>Obstetrics and gynaecology is concerned with the care of pregnant woman, her unborn child and the management 
+						   of diseases specific to women. The specialty combines medicine and surgery</p><br />
+					</li>
+					<li><strong>Dermatologists</strong>
+						<p>Dermatologists specialise in treating skin disorders, including skin cancers.</p><br />
+					</li>
+					<li><strong>Oncologists</strong>
+						<p>Oncologists specialise in the medical treatment of cancer. A clinical oncologist
+						   specialises in treating patients with radiotherapy and may also use chemotherapy and hormone therapy. 
+						   A medical oncologist specialises in treating patients with chemotherapy.</p><br />
+					</li>
+					<li><strong>Radiologists</strong>
+					    <p>Radiologists are exerts in examining images of the body using x-rays and body scans for example perform
+						   operations and other surgical procedures (including biopsies) to diagnose and treat cancer</p><br />
+				    </li>
+					<li><strong>Physicians </strong>
+						<p>Physicians is the general name for medical doctors. There are many different kinds of physician, 
+						   such as chest physicians and dermatologists. They are involved in investigating symptoms and doing tests which may confirm cancer.
+						   They may also provide some of the treatment and care for particular cancers</p><br />
+					</li>	   
+				</ul>
+				<br /><br /><br />
+			
+	    </div>				
+	</div>	
+	</header>	
+</body>
+</html>				
+				
+///////THIRD HTML
+
+	<!DOCTYPE html>
+<html>
+<head>
+<title>Your Shopping Cart</title>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="style.css" media="screen" type="text/css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.store.js"></script>
+</head>
+
+<body>
+
+<div id="site">
+	<header id="masthead">
+		<h1></h1>
+	</header>
+	<div id="content">
+		<h1>Your Shopping Cart</h1>
+		<form id="shopping-cart" action="cart.html" method="post">
+			<table class="shopping-cart">
+			  <thead>
+				<tr>
+					<th scope="col">Item</th>
+					<th scope="col">Qty</th>
+					<th scope="col" colspan="2">Price</th>
+				</tr>
+			  </thead>
+			  <tbody>
+			  
+			  </tbody>
+			</table>
+			<p id="sub-total">
+				<strong>Sub Total</strong>: <span id="stotal"></span>
+			</p>
+			<ul id="shopping-cart-actions">
+				<li>
+					<input type="submit" name="update" id="update-cart" class="btn" value="Update Cart" />
+				</li>
+				<li>
+					<input type="submit" name="delete" id="empty-cart" class="btn" value="Empty Cart" />
+				</li>
+				<li>
+					<a href="index.html" class="btn">Continue Shopping</a>
+				</li>
+				<li>
+					<a href="checkout.html" class="btn">Go To Checkout</a>
+				</li>
+			</ul>
+		</form>
+	</div>
+	
+	
+
+</div>
+
+<footer id="site-info">
+		Copyright &copy; 
+	</footer>
+
+</body>
+</html>	
+
+
+
+///////FOURTH HTML
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Checkout</title>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="style.css" media="screen" type="text/css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.store.js"></script>
+</head>
+
+<body id="checkout-page">
+
+<div id="site">
+	<header id="masthead">
+		<h1></h1>
+	</header>
+	<div id="content">
+		<h1>Checkout</h1>
+			<table id="checkout-cart" class="shopping-cart">
+			  <thead>
+				<tr>
+					<th scope="col">Item</th>
+					<th scope="col">Qty</th>
+					<th scope="col">Price</th>
+				</tr>
+			  </thead>
+			  <tbody>
+			  
+			  </tbody>
+			</table>
+		 <div id="pricing">
+			
+			<p id="shipping">
+				<strong>Shipping</strong>: <span id="sshipping"></span>
+			</p>
+			
+			<p id="sub-total">
+				<strong>Total</strong>: <span id="stotal"></span>
+			</p>
+		 </div>
+		 
+		 <form action="order.html" method="post" id="checkout-order-form">
+		 	<h2>Your Details</h2>
+		 	
+		 	<fieldset id="fieldset-billing">
+		 		<legend>Billing</legend>
+		 		<div>
+		 			<label for="name">Name</label>
+		 			<input type="text" name="name" id="name" data-type="string" data-message="This field cannot be empty" />
+		 		</div>
+		 		<div>
+		 			<label for="email">Email</label>
+		 			<input type="text" name="email" id="email" data-type="expression" data-message="Not a valid email address" />
+		 		</div>
+		 		<div>
+		 			<label for="city">City</label>
+		 			<input type="text" name="city" id="city" data-type="string" data-message="This field cannot be empty" />
+		 		</div>
+		 		<div>
+		 			<label for="address">Address</label>
+		 			<input type="text" name="address" id="address" data-type="string" data-message="This field cannot be empty" />
+		 		</div>
+		 		<div>
+		 			<label for="zip">ZIP Code</label>
+		 			<input type="text" name="zip" id="zip" data-type="string" data-message="This field cannot be empty" />
+		 		</div>
+		 		<div>
+		 			<label for="country">Country</label>
+		 			<select name="country" id="country" data-type="string" data-message="This field cannot be empty">
+		 				<option value="">Select</option>
+		 				<option value="De">Denmark</option>
+		 				<option value="IN">India</option>
+		 			</select>
+		 		</div>
+		 	</fieldset>
+		 	
+		 	<div id="shipping-same">Same as Billing <input type="checkbox" id="same-as-billing" value=""/></div>
+		 	
+		 	<fieldset id="fieldset-shipping">
+		 		
+		 		<legend>Shipping</legend>
+		 		
+		 		<div>
+		 			<label for="sname">Name</label>
+		 			<input type="text" name="sname" id="sname" data-type="string" data-message="This field cannot be empty" />
+		 		</div>
+		 		<div>
+		 			<label for="semail">Email</label>
+		 			<input type="text" name="semail" id="semail" data-type="expression" data-message="Not a valid email address" />
+		 		</div>
+		 		<div>
+		 			<label for="scity">City</label>
+		 			<input type="text" name="scity" id="scity" data-type="string" data-message="This field cannot be empty" />
+		 		</div>
+		 		<div>
+		 			<label for="saddress">Address</label>
+		 			<input type="text" name="saddress" id="saddress" data-type="string" data-message="This field cannot be empty" />
+		 		</div>
+		 		<div>
+		 			<label for="szip">ZIP Code</label>
+		 			<input type="text" name="szip" id="szip" data-type="string" data-message="This field cannot be empty" />
+		 		</div>
+		 		<div>
+		 			<label for="scountry">Country</label>
+		 			<select name="scountry" id="scountry" data-type="string" data-message="This field cannot be empty">
+		 				<option value="">Select</option>
+		 				<option value="De">Denmark</option>
+		 				<option value="IN">India</option>
+		 			</select>
+		 		</div>
+		 	</fieldset>
+		 	
+		 	<p><input type="submit" id="submit-order" value="Submit" class="btn" /></p>
+		 
+		 </form>
+	</div>
+	
+	
+
+</div>
+
+<footer id="site-info">
+		Copyright &copy;
+	</footer>
+
+</body>
+</html>	
+
+    
+
+///////FIFTH HTML
+
+
+				
+				
+	<!DOCTYPE html>
+<html>
+<head>
+	<title>Medical Information</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>  
+<body>
+	<header>
+		<div class="wrapper">
+				<img src="universal-health-care-1095124_960_720.png" class="logo">
+			<ul class="menu">
+				<li><a href="https://www.healthdirect.gov.au/symptom-checker/tool">Symptom Checker</a></li>
+				<li><a href="#">Consult</a>
+					<div class="sub-menu">
+						<ul>
+							<li><a href="https://www.practo.com/mangalore/cardiologist">Cardiologist</a></li>
+							<li><a href="https://www.practo.com/search/doctors?results_type=doctor&q=%5B%7B%22word%22%3A%22general%20physician%22%2C%22autocompleted%22%3Atrue%2C%22category%22%3A%22subspeciality%22%7D%5D&city=mangalore">Physician</a></li>
+							<li><a href="https://www.practo.com/search/doctors?results_type=doctor&q=%5B%7B%22word%22%3A%22ear-nose-throat%20(ent)%20specialist%22%2C%22autocompleted%22%3Atrue%2C%22category%22%3A%22subspeciality%22%7D%5D&city=mangalore">ENT</a></li>
+							<li><a href="https://www.practo.com/search/doctors?results_type=doctor&q=%5B%7B%22word%22%3A%22psychiatrist%22%2C%22autocompleted%22%3Atrue%2C%22category%22%3A%22subspeciality%22%7D%5D&city=mangalore">Psychiatrists</a></li>
+							<li><a href="https://www.practo.com/search/doctors?results_type=doctor&q=%5B%7B%22word%22%3A%22dentist%22%2C%22autocompleted%22%3Atrue%2C%22category%22%3A%22subspeciality%22%7D%5D&city=mangalore">Dentist</a></li>
+							<li><a href="https://www.practo.com/search/doctors?results_type=doctor&q=%5B%7B%22word%22%3A%22neurologist%22%2C%22autocompleted%22%3Atrue%2C%22category%22%3A%22subspeciality%22%7D%5D&city=mangalore">Neurologists</a></li>
+							<li><a href="https://www.practo.com/search/doctors?results_type=doctor&q=%5B%7B%22word%22%3A%22endocrinologist%22%2C%22autocompleted%22%3Atrue%2C%22category%22%3A%22subspeciality%22%7D%5D&city=mangalore">Endocrinologists</a></li>
+							<li><a href="https://www.practo.com/search/doctors?results_type=doctor&q=%5B%7B%22word%22%3A%22ophthalmologist%22%2C%22autocompleted%22%3Atrue%2C%22category%22%3A%22subspeciality%22%7D%5D&city=mangalore">Ophthalmology</a></li>
+						</ul>
+					</div>
+				</li>
+				<!-- <li><a href="https://in.linkedin.com/in/amber-kakkar-242138193">About Me</a></li>
+				<li><a href="https://www.sehat.com/">Know Your Doctor</a></li> -->
+				<li><a href="faq.html">FAQ</a></li>
+			</ul>
+		</div>
+		
+		<div class="middle">
+		 <div class="row">
+				<div class="column side">
+				    <br /><br /><br />
+					<h3>Amazing Disease Fighting Foods</h3><br /><br />
+					<p>Do your body a healthy world of good with these powerhouse disease fighting foods.
+					   these nutritious nibbles should replace other, less healthful, foods, helping you to cut calories while boosting the nutrition in your diet.</p><br />
+					<ol class="describe">
+						<li><strong>Berries</strong>
+							<p>Reach for berries for a powerful dose of disease fighting antioxidants. 
+							   According to a U.S. Department of Agriculture study, blueberries top the list of antioxidant-rich fruits,
+							   followed by cranberries, blackberries, raspberries, and strawberries. The color of berries comes from the pigment anthocyanin, an antioxidant that helps neutralize "free radicals" 
+							   (cell-damaging molecules) that can help lead to chronic diseases, including cancer and heart disease.
+							   Berries, particularly cranberries, may also help ward off urinary tract infections.</p><br />
+						</li>
+						<li><strong>Dark, Leafy Greens</strong>
+							<p>One of the best disease fighting foods is dark, leafy greens, which include everything from spinach, kale, and bok 
+							   choy to dark lettuces. They are loaded with vitamins, minerals, beta-carotene, vitamin C, folate, iron, magnesium, carotenoids, phytochemicals, and antioxidants. A Harvard study found that eating 
+							   magnesium-rich foods such as spinach can reduce the risk of developing type 2 diabetes.</p><br />
+					    </li>
+						<li><strong>Tomatoes</strong>
+							<p>These red-hot fruits of summer are bursting with flavor and lycopene -- an antioxidant that may help protect against some cancers. 
+							   They also deliver an abundance of vitamins A and C, potassium, and phytochemicals.</p><br />
+					    </li>
+						<li><strong>Nuts</strong>
+							<p>Nuts are full of fats. But they're the healthy, mono- and polyunsaturated kind, which can help lower cholesterol levels and help prevent heart disease.
+							   In addition, nuts are a good source of protein, fiber, selenium, vitamin E, and vitamin A.</p><br />
+						</li>
+						<li><strong>Beans and Legumes</strong>
+							<p>These nutritious nuggets are packed with phytochemicals; fat-free, high-quality protein; folic acid; fiber; iron; magnesium; and small amounts of calcium.
+							   Beans are an excellent and inexpensive protein source and a great alternative for low-calorie vegetarian meals.
+                               Eating beans and legumes regularly as part of a healthy eating plan can help reduce the risk of certain cancers; lower blood cholesterol and triglyceride levels;
+							   and stabilize blood sugar. Beans also play an important role in weight management by filling you up with lots of bulk and few calories.</p><br />
+						</li>
+						<li><strong>Eggs</strong>
+							<p>Their cholesterol content once led to bad press for the mighty egg, but research has redeemed it. It turns out that saturated fat (eggs have little) 
+							   plays a bigger role than the cholesterol in food in elevating our blood cholesterol.
+                               Eggs are packed with economical, high-quality protein, and are an excellent source of the carotenoids 
+							   lutein, choline, and xeanthin. In fact, eggs are one of the best sources of dietary choline, an essential
+							   nutrient -- especially for pregnant women. Eggs have been shown to supply nutrients that promote eye health 
+							   and help prevent age-related macular degeneration, the leading cause of blindness in older people.</p><br />
+						</li>
+						<li><strong>Carrots</strong>
+							<p>Carrots contain lots of carotenoids, an antioxidant that may protect against cancer, cataracts, and/or heart disease.
+							   Other fruits and vegetables that are packed with carotenoids include sweet potato, kale, pumpkin, spinach, and cantaloupe.
+							   Carotenoids help give these guys their bright, vibrant orange and green colors. These antioxidant ninjas fight off the bad guys –
+							   free radicals – and ensure they don’t hurt any cell membranes or DNA</p><br />
+						</li>
+						<li><strong>Apples</strong>
+							<p>The saying “an apple a day keeps the doctor away” is definitely true. 
+							   This antioxidant fruit also contains quercetin, a photochemical 
+							   that can help prevent lung, prostate, and heart disease, among others.
+                               This miracle fruit is a great raw snack, make a mouth-watering Maple Drunk Vegan Apple Pie,
+							   and cook deliciously in Apple-Almond Butter Pancakes. Yum! For more apple-inspired recipes, check out these 20 Warm and Fuzzy Apple Recipes.</p><br />
+					    </li>
+					</ol>
+					
+				</div>
+  
+			<div class="column middle">
+		 	    <br /><br /><br />
+				<h2><strong>Doctors For Your Symptoms:</strong></h2><br />
+				<ul>
+					<li><strong>Anaesthesiologist</strong>
+						<p> Anaesthetists, the largest group of hospital-based specialists, 
+							give anaesthetics for surgical, medical and psychiatric procedures. 
+							They facilitate pain free child-birth, resuscitate acutely unwell patients, 
+							run chronic pain and lead intensive care units.The majority of their time is spent in the operating theatre 
+							but they also work in areas such as:</p><br />
+						<ul>
+							<li>obstetric units</li>
+							<li>critical care services for intensive care and high dependency patients</li>
+							<li>resuscitation services</li>
+							<li>emergency departments</li>
+							<li>chronic pain management</li>
+							<li>acute pain teams</li>
+							<li>dentistry</li>
+							<li>perioperative clinics</li>
+							<li>radiology</li>
+							<li>psychiatry–for patients receiving electro-convulsive therapy(ECT)</li>
+						</ul><br />
+					</li>
+					<li><strong>Psychiatry</strong>	
+						<p>Mental illness is extremely common and far more prevalent than most people realise. 
+						   This kind of illness therefore ranks alongside cardiovascular disorders and cancer as 
+						   one of the nation's biggest health problems.Specialties are: </p><br />
+						<ul>
+							<li>child and adolescent psychiatry</li>
+							<li>forensic psychiatry</li>
+							<li>general psychiatry</li>
+							<li>old age psychiatry</li>	
+							<li>psychiatry of intellectual disability (PID)</li>
+						</ul><br />
+					</li>
+					<li><strong>Surgery</strong>	
+						<p>In modern medicine, a surgeon is a physician who performs surgical operations. 
+						   There are also surgeons in podiatry, dentistry, orthodontics and the veterinary fields.
+						</p><br />
+					</li>	
+					<li><strong>Pathology</strong>
+						<p>Pathology provides an understanding of the process of disease and is multidisciplinary. 
+						   It has five main specialties which have further sub-specialties.A pathology career offers
+						   a great range of variety and combines clinical and laboratory work and offers scope for excellent 
+						   opportunities within research. Whichever branch of pathology that you are interested in,
+						   all jobs within pathology will require a very broad and detailed knowledge of medicine </p><br />
+				    </li>
+					<li><strong>Obstetrics and gynaecology</strong>
+						<p>Obstetrics and gynaecology is concerned with the care of pregnant woman, her unborn child and the management 
+						   of diseases specific to women. The specialty combines medicine and surgery</p><br />
+					</li>
+					<li><strong>Dermatologists</strong>
+						<p>Dermatologists specialise in treating skin disorders, including skin cancers.</p><br />
+					</li>
+					<li><strong>Oncologists</strong>
+						<p>Oncologists specialise in the medical treatment of cancer. A clinical oncologist
+						   specialises in treating patients with radiotherapy and may also use chemotherapy and hormone therapy. 
+						   A medical oncologist specialises in treating patients with chemotherapy.</p><br />
+					</li>
+					<li><strong>Radiologists</strong>
+					    <p>Radiologists are exerts in examining images of the body using x-rays and body scans for example perform
+						   operations and other surgical procedures (including biopsies) to diagnose and treat cancer</p><br />
+				    </li>
+					<li><strong>Physicians </strong>
+						<p>Physicians is the general name for medical doctors. There are many different kinds of physician, 
+						   such as chest physicians and dermatologists. They are involved in investigating symptoms and doing tests which may confirm cancer.
+						   They may also provide some of the treatment and care for particular cancers</p><br />
+					</li>	   
+				</ul>
+				<br /><br /><br />
+			
+	    </div>				
+	</div>	
+	</header>	
+</body>
+</html>				
+				
+				
+				
+				
+				
+///////SIXTH HTML
+
+				
+				
+	<!DOCTYPE html>
+<html>
+<head>
+	<title>FAQ</title>
+	<link rel="stylesheet" type="text/css" href="css/style1.css">
+</head>
+<body>
+	<header>
+			<div class="header1">
+				<h1>Frequently Asked Questions</h1>
+			</div>
+			<br /><br />
+			<div class="questions">
+				<div class="ans">
+			
+				<h3><strong>Q1).What are the conditions treated by general physicians?</strong></h3>
+				<p>Ans:General physicians treat conditions like headaches, flu, urinary infections, blood pressure, diabetes, common aches, etc.</p>
+				<br />
+				<h3><strong>Q2).Do general physicians offer home consultation?</strong></h3>
+				<p>Ans:Yes, most of the general physicians do offer home consultation in case of emergencies or when requested.</p>
+  				<br />
+				<h3><strong>Q3).Will the consultation and diagnosis be covered in insurance?</strong></h3>
+				<p>Ans:Most of the conditions treated by general physicians are common. Hence, most of them are not covered by insurance. However, you can always check with your insurance company.</p>
+				<br />
+				<h3><strong>Q4).Do general physicians provide in-house medicines?</strong></h3>
+				<p>Ans:Yes, some of the general physicians do provide in-house medicines along with prescribing medication.</p>
+				<br />
+				<h3><strong>Q5).What are the consultation charges of general physicians in Mangalore?</strong></h3>
+				<p>Ans:The consultation fees of general physicians in Mangalore ranges approximately from Rs. 250 to Rs. 500.</p>
+				<br />
+				<h3><strong>Q6).What are the side effects?</strong></h3>
+				<p>Ans:There’s always the possibility that what I do with medications could hurt a patient,” Epperly says. 
+				 Whether that hurt comes in the form of headaches or skin rashes or mouth blisters, those sorts of side effects are common—and are things patients should hear about from their doctors beforehand so they go into a course of treatment with eyes wide open, he says.</p>
+				<br />
+				<h3><strong>Q7).How much does a general physician in Mangalore charge?</strong></h3>
+				<p>Ans:A general physician charges approximately Rs 400 to Rs 500 per consultation.
+				 (The prices are highly indicative and are subject to change.)</p>
+				<br />
+				<h3><strong>Q8).What is the procedure followed by general physicians in Mangalore?</strong></h3>
+				<p>Ans:The family practitioner is trained to diagnose the condition no matter how simple or complex it might be.
+				They might recommend a series of tests in case in-depth diagnosis is required to identify the root cause of the problem. 
+				Doctors might refer the patient to a specialist in case the problem is serious or requires treatment by a specialist.</p>
+				<br />
+				<h3><strong>Q9).What are the different diseases that can be treated by a general physician in Mangalore?</strong></h3>
+				<p>Ans:Following diseases are be treated by general physician:
+				<br />
+				<ul>
+					<li><strong>Pain</strong>
+						<p>Common aches and pains in the body are pretty common. However, significant pain
+						   in the body for an extended period of time requires to be referred to a physician.
+						   The doctor can help in diagnosing the root cause of the problem and treating it.</p>
+					</li>
+					<br />
+					<li><strong>Headaches</strong>	
+						<p>This is a common reason for which people visit doctors. Headaches could be caused due to a variety of reasons.
+						   Frequent headaches could be caused due to migraines which require to be treated promptly as headaches can hamper daily life.</p>
+				    </li>
+					<br />
+					<li><strong>Cough</strong>
+						<p>Coughs might be accompanied by cold or an irritation in the throat. It can be caused due to cold, pneumonia or other more serious factors like asthma etc.</p>
+				    </li>
+					<br />
+					<li><strong>Influenza</strong>
+						<p>This is an infectious disease caused by the female Anopheles mosquito. 
+						   It is accompanied by a number of symptoms that begin before the offset of the disease.</p>
+					</li>
+					<br />
+					<li><strong>Urinary Infections</strong>
+						<p>Urinary infections might cause difficulty in passing urine and if not treated can lead to more serious conditions.</p>
+					</li>
+					<br />
+					<li><strong>Blood Pressure</strong>
+						<p>Blood pressure refers to the pressure of blood as it is being pumped by the heart.
+						   Physicians make sure to check their clients blood pressure since both high and low blood pressure can prove to be harmful.
+						   High blood pressure can lead to a number of conditions like heart disease, stroke etc.
+						   Low blood pressure can lead to symptoms like feeling dizzy, irregular heartbeat etc.</p>
+				    </li>
+					<br />
+					<li><strong>Diabetes</strong>
+						<p>Diabetes is a disease that affects the body's ability to produce glucose.
+						   Diabetes can can lead to a number of complications if not managed well.</p>
+					</li>
+                    <br />					
+				</ul>
+				
+				</div>
+			</div>	
+	</header>
+</body>
+</html>				
+				
+				
+				
+				
+	/////////SEVENTH HTML			
+				
+				
+				
+	<!DOCTYPE html>
+<html>
+<head>
+<title>Your Order</title>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="style.css" media="screen" type="text/css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.store.js"></script>
+</head>
+
+<body id="checkout-page">
+
+<div id="site">
+	<header id="masthead">
+		<h1></h1>
+	</header>
+	<div id="content">
+		<h1>Your Order</h1>
+			<table id="checkout-cart" class="shopping-cart">
+			  <thead>
+				<tr>
+					<th scope="col">Item</th>
+					<th scope="col">Qty</th>
+					<th scope="col">Price</th>
+				</tr>
+			  </thead>
+			  <tbody>
+			  
+			  </tbody>
+			</table>
+		 <div id="pricing">
+			
+			<p id="shipping">
+				<strong>Shipping</strong>: <span id="sshipping"></span>
+			</p>
+			
+			<p id="sub-total">
+				<strong>Total</strong>: <span id="stotal"></span>
+			</p>
+		 </div>
+		 
+		 <div id="user-details">
+		 	<h2>Your Data</h2>
+		 	<div id="user-details-content"></div>
+		 </div>
+		 
+		 
+		 
+		 
+<form id="paypal-form" action="" method="post">
+	<input type="hidden" name="cmd" value="_cart" />
+	<input type="hidden" name="upload" value="1" />
+	<input type="hidden" name="business" value="" />
+        
+	<input type="hidden" name="currency_code" value="" />
+	<input type="submit" id="paypal-btn" class="btn" value="Pay with PayPal" />
+</form>
+		 
+		 
+	</div>
+	
+	
+
+</div>
+
+<footer id="site-info">
+		Copyright &copy; 
+	</footer>
+
+</body>
+</html>	
+
+   
+			
+							
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
